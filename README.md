@@ -5,4 +5,5 @@
     <li>Current and "Feels like" temperature</li></br>
     <li>Wind speed</li></br>
     <li>Humidity</li></br>
+    <li>Sunrise and sunset time</li>
    </ul>
