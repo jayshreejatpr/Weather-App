@@ -5,35 +5,44 @@
     box-sizing: border-box;
 }
 body{
-    background: #222;
+   
+    background: lightslategrey;
+}
+   
+.first{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto 1rem;
+    margin-left: -2rem;
 }
 .card{
-    width: 2000%;
-    max-width: 570px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 200%;
+    max-width: 600px;
+ /*   background: linear-gradient(135deg, #00feba, #5b548a);  */
     color: #fff;
-    margin: 100px auto 0;
+    margin: 0 auto 0.5rem;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 4rem;
     text-align: center;
 }
 .search{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+   /* justify-content: space-between;  */
 }
 .search input{
     border: 0;
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
+    padding: 1rem 3rem;
     height: 60px;
     border-radius: 30px;
-    flex: 1;
-    margin-right: 16px;
-    font-size: 18px;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    font-size: 1.5rem;
 }
 .search button{
     border: 0;
@@ -49,75 +58,64 @@ body{
 }
 .weather-icon{
     width: 170px;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 .weather h1{
-    font-size: 80px;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: bold;
 }
 .weather h2{
-    font-size: 45px;
-    font-weight: 400;
-    margin-top: -10px;
+    font-size: 3rem;
+    font-weight: bold;
+    
 }
 .details{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
+    padding: 0.5rem;
+    margin-inline: 2rem;
 }
 .col{
     display: flex;
     align-items: center;
-    text-align: left;
+    
+    
 }
 .col img{
-    width: 30px;
-    margin-right: 5px;
+    width: 45px;
 }
 .humidity{
-    font-size: 28px;
-    margin-top: 0;
+    font-size: 2rem;
+    margin-inline: 0.5rem;
+
 } 
 .wind{
-    font-size: 18px;
-    margin-top: 0;
-    text-align: right;
+    font-size: 1.5rem;
+    margin-inline: 0.5rem;
 }
 .weather{
     display: none;
 }
 .error{
     text-align: left;
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: 10px;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     display: none;
 }
-/*.sunrise{
-    margin-top: -150px;
-    font-size: 28px;
-    
+
+#xx{
+    margin: 1rem;
 }
-.sunset{
-    margin-top: -150px;
-    font-size: 28px;
-  
-}*/
-#sunrise{
-    margin-top: 10px;
-    font-size: 15px;
-}
-#sunset{
-    margin-top: 10px;
-    font-size: 15px;
-}
+
 .row img{
-    width: 40px;
-    margin-right: 20px;
+    width: 60px;
 
 }
+
 
 
 
