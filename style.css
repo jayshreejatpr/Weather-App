@@ -30,7 +30,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-   /* justify-content: space-between;  */
+     
 }
 .search input{
     border: 0;
@@ -116,6 +116,31 @@ body{
 
 }
 
+    .search{
+        width: auto;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        
+    }
+    .search input{
+        width: 20rem;
+        max-width: 400px;
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 1rem 2rem;
+        height: 60px;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+    }
+    .search button { 
+       width: 60px; 
+       height: 60px;
+    }
+  
 
 
 
